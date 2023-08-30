@@ -12,45 +12,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: danu01_LiveDO01a
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 63d17542-dee3-47a8-9639-0d34d9ef8d87
-  udp: true
-  sni: do2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do2.myserver-prem.cloud
-- name: danu01_LiveDO01b
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 63d17542-dee3-47a8-9639-0d34d9ef8d87
-  udp: true
-  sni: do2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do2.myserver-prem.cloud
-- name: danu01_LiveDO01c
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 63d17542-dee3-47a8-9639-0d34d9ef8d87
-  udp: true
-  sni: do2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do2.myserver-prem.cloud
 - name: DanuBackup_LiveDOa
   type: trojan
   server: 104.21.8.121
