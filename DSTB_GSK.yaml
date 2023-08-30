@@ -1,6 +1,19 @@
 proxies:
 - name: GSK_LiveDO_1
   type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: ac43a35f-d17b-40f7-a078-1942ee58cf3f
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
+- name: GSK_LiveDO_2
+  type: trojan
   server: 104.21.8.121
   port: 443
   password: ac43a35f-d17b-40f7-a078-1942ee58cf3f
