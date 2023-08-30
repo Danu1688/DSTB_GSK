@@ -1,17 +1,17 @@
 proxies:
-- name: TrojanWsSvr-Live_1
+- name: GSK_LiveDO_1
   type: trojan
-  server: 104.18.1.196
+  server: 104.21.8.121
   port: 443
-  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
+  password: ac43a35f-d17b-40f7-a078-1942ee58cf3f
   udp: true
-  sni: sgdo3.dstb.cloud
+  sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sgdo3.dstb.cloud
+      Host: danu529.foryou-ssh.my.id
 - name: danu01_LiveDO01a
   type: trojan
   server: 104.21.8.121
