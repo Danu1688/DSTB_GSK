@@ -12,6 +12,19 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
+- name: MessGSK_DO_2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 4f869071-73fd-47cd-a585-090bca382eb9
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: DanuBackup_LiveDOa
   type: trojan
   server: 104.21.8.121
