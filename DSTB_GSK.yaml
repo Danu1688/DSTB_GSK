@@ -77,7 +77,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: MessGSK_DO_1
+- name: MessGSKDo1A_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -90,7 +90,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: MessGSK_DO_2
+- name: MessGSKDo1B_live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -103,7 +103,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: TrojanWsSvr-DO_3
+- name: TrojanWsDo1C-Live_H1
   type: trojan
   server: circles.asia
   port: 443
